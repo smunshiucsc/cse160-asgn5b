@@ -27,12 +27,12 @@ function main() {
 
     const sky_loader = new CubeTextureLoader();
     const sky_texture = sky_loader.load([
-        '/resources/images/turf.jpg', 
-        '/resources/images/turf.jpg', 
-        '/resources/images/turf.jpg', 
-        '/resources/images/turf.jpg',
-        '/resources/images/turf.jpg', 
-        '/resources/images/turf.jpg'  
+        '../resources/images/turf.jpg', 
+        '../resources/images/turf.jpg', 
+        '../resources/images/turf.jpg', 
+        '../resources/images/turf.jpg',
+        '../resources/images/turf.jpg', 
+        '../resources/images/turf.jpg'  
     ]);
 
     // Apply texture to the scene
