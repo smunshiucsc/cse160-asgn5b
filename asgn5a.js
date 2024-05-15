@@ -264,10 +264,10 @@ function main() {
 
     const mtlLoader = new MTLLoader();
     const objLoader = new OBJLoader();
-    mtlLoader.load('/resources/models/katana.mtl', (mtl) => {
+    mtlLoader.load('../resources/models/katana.mtl', (mtl) => {
     mtl.preload();
     objLoader.setMaterials(mtl);
-    objLoader.load('/resources/models/katana.obj', (root) => {
+    objLoader.load('../resources/models/katana.obj', (root) => {
     root.scale.set(2.5, 1.5, 2.5);
     //root.rotation.y = 20;
     root.rotation.z = Math.PI / 2.15;
