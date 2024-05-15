@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaun Munshi: Assignment 5a</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        #c {
+            width: 100%;
+            height: 100%;
+            display: block;
+            background: url(resources/images/turf.jpg) no-repeat center center;
+            background-size: cover;
+        }
+    </style>
+    <p>Grader Notes: Shaun Munshi's Assignment 5a. I have made a 3D drawing of Minecraft steve, with
+    two 3D spheres as the eyes, a diamond block as the nose, and a katana rotated as his smile. Along 
+    that, I have 21 textured cubes of the different ores that make up his helmet.</p>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdn.jsdelivr.net/npm/three@v0.163.0/build/three.module.js",
+                "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.163.0/examples/jsm/"
+            }
+        }
+    </script>
+</head>
+<body>
+    <canvas id="c" width="1600px" height="800px"></canvas>
+    <script type="module" src="asgn5a.js"></script>
+</body>
+</html>
