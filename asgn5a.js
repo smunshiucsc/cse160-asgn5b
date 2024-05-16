@@ -65,7 +65,7 @@ function main() {
     var ambientLight = new THREE.AmbientLight(0xffffff, 1); // Added Ambient lighting for Orbital Controls
     scene.add(ambientLight);
 
-    var hemisphereLight = new THREE.HemisphereLight(color, 0xfffffff, 0.5);
+    var hemisphereLight = new THREE.HemisphereLight(color, 0xfffffff, 2);
     scene.add(hemisphereLight);
 
     
